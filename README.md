@@ -2,11 +2,11 @@
 
 This project focuses on predicting the popularity score (0–100) of music tracks using advanced machine learning regression models. The dataset, sourced from a Kaggle competition, includes audio features, metadata, and artist-level information. The models explored include XGBoost and CatBoost, with and without hyperparameter tuning (GridSearchCV & RandomizedSearchCV). Multiple evaluation metrics were used to assess model performance.
 
-## 📊 Problem Overview
+## Problem Overview
 
 Music streaming services and record labels use data-driven methods to predict which tracks will perform well. This project builds a regression pipeline that learns from track features to forecast their popularity, helping to identify successful tracks in advance.
 
-## ⚙️ Workflow
+## Workflow
 
 - Data Exploration and Cleaning
 - Feature Encoding and Imputation
@@ -19,7 +19,7 @@ Music streaming services and record labels use data-driven methods to predict wh
 - 5-Fold Cross-Validation
 - Evaluation using RMSE, MAE, R², MAPE, SMAPE, and MedAE
 
-## 📈 Results Summary
+## Results Summary
 
 The best-performing model was **XGBoost with RandomizedSearchCV**, which achieved:
 - RMSE: 8.03
@@ -28,7 +28,7 @@ The best-performing model was **XGBoost with RandomizedSearchCV**, which achieve
 - SMAPE: 13.52
 
 
-## 📌 Key Technologies
+## Key Technologies
 
 - Python 3
 - XGBoost
@@ -36,7 +36,7 @@ The best-performing model was **XGBoost with RandomizedSearchCV**, which achieve
 - scikit-learn
 - pandas, numpy, matplotlib, seaborn
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
    ```bash
